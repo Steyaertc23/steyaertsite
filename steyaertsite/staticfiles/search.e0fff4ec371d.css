@@ -8,7 +8,7 @@ body{
     width: 100dvw;
     height: 100dvh;
     overflow: hidden;
-    background-image: url("/static/background.jpg");
+    background-image: url("/static/background.5e33a321a449.jpg");
     background-size: 100%;
     color: cyan;
 }
