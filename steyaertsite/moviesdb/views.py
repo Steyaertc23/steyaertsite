@@ -84,7 +84,7 @@ def add(response):
             r = form.cleaned_data['rating']
             d = form.cleaned_data['disk']
 
-            ls = MovieList.objects.get(name='Steyaert Movie DataBase')
+            ls = MovieList.objects.get(name='Steyaert Movie Database')
             ls.movie_set.create(title=t, rating=r, disk=d)
             return HttpResponseRedirect('/db')
     else:
